@@ -17,7 +17,7 @@ python -m sales_pack ──► output/Sales_Pack_<week>.xlsx   (Summary, Regiona
                      └─► output/tableau/*.csv             (feed for the Tableau dashboard)
 ```
 
-`sample_output/Sales_Pack_sample.xlsx` shows what the pack looks like, built from generated sample data.
+[`docs/Sales_Pack_sample.xlsx`](docs/Sales_Pack_sample.xlsx) shows what the pack looks like, built from generated sample data.
 
 ## Results
 
@@ -70,11 +70,10 @@ sales-performance-intelligence/
 │   ├── make_charts.py        # README charts in docs/
 │   ├── run_weekly.bat        # weekly refresh (Windows)
 │   └── run_weekly.sh         # weekly refresh (macOS/Linux)
-├── docs/                     # charts and pack screenshot
+├── docs/                     # charts, pack screenshot and Sales_Pack_sample.xlsx
 ├── tests/test_metrics.py
 ├── data/raw/                 # put your data file here
 ├── data/reference/quotas_override_example.csv
-├── sample_output/Sales_Pack_sample.xlsx
 └── requirements.txt
 ```
 
