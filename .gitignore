@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+output/
+data/raw/*
+!data/raw/.gitkeep
+~$*.xlsx
+.DS_Store
